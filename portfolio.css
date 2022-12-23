@@ -39,7 +39,7 @@ body {
   border: 3px solid var(--stroke-color);
   border-radius: 15px;
   width: 100%;
-  height: 720px;
+  height: 1133px;
   margin: 56px auto 0;
   padding: 15px;
   max-width: 588px;
@@ -129,18 +129,22 @@ ul li a{
   border-radius: 8px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-
+  height: 64px;
+  width: 553px;
   text-decoration: none;
   font-weight: 500;
   transition: background 0.3s;
+  font-size: 25px;
+}
+#swiper .swiper-wrapper .swiper-slide a {
+  border: none;
+  background: none;
 }
 
 ul li a:hover {
   background: var(--surface-color-hover);
   border:  1px solid var(--text-color);
 }
-
-
 
 /* Links-redes-sociais */
 
@@ -201,4 +205,37 @@ footer {
   to {
     left: 0;
   }
+ }
+
+
+ /* Swiper */
+ .swiper {
+  display: none;
+ }
+ .about{
+  display: none;
+}
+ .swiper-slide {
+    height: 322px;
+    display: flex;
+    align-items: center;
+}
+ 
+
+ .swiper-wrapper {
+  
+  width: 553px;
+  
+ }
+
+ .swiper-wrapper a img {
+    margin-top: 15px;
+    width: 472px;
+    height: 257px;
+    padding-left: 0px;
+    border-radius: 25px;
+}
+
+ .swiper-wrapper a img:hover{
+  cursor: pointer;
  }

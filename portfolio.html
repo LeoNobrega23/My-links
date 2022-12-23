@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="./portfolio.css">
+  <title>My Links</title>
+</head>
+<body>
+  <!-- Container -->
+  <div class="container">
+    <!-- Profile -->
+    <div class="profile">
+      <img src="./assets/avatar-dark-leo.png" alt="Foto de Leonardo, em frente ao espelho de camisa preta.">
+      <p>Leonardo Nóbrega</p>
+      <small>Front-end Developer</small>
+    </div>
+    <!-- switch dark/light -->
+    <div id="switch" onclick="toggleMode()">
+      <button>
+        
+      </button>
+      <span></span>
+    </div>
+    <ul>
+      <li>
+        <a href="#" onclick="showSwiper()"><p>Projetos</p></a>
+  
+       <div class="swiper" id="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <a href="">
+        <img src="./assets/god-of-war.png" alt="">
+      </a>
+    </div>
+    <div class="swiper-slide">
+      <a href="">
+        <img src="./assets/pokedex.png" alt="">
+      </a>
+    </div>
+    <div class="swiper-slide">
+      <a href="">
+        <img src="./assets/relogio.png" alt="">
+      </a>
+    </div>
+
+    
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  
+</div>
+      </li>
+      <li><a href="#" onclick="showAbout()"><p>Sobre Mim</p></a>
+        <div class="about" id="about">
+          <small>Desenvolvedor front-end, com experiência em HTML5, CSS3, JavaScript, atualmente estudando bibliotecas e frameworks como React, JQuerry, Babel, Bootstrap, Angular e Vue.js <br>
+          <br>
+           Sou um ex-estudante de medicina que se apaixonou por programação, suas vastas áreas e imensa possibilidade de criar, e por em códigos toda minha criatividade, também sou uma pessoa muito comunicativa, que gosta de trabalhar em grupos e preza o bom humor no ambiente de trabalho, gosto de ouvir as ideias dos meus companheiros e aprender com os mais experiente, também tenho grande facilidade de aprender em curto prazo <br>
+        </small>
+          
+        </div>
+        
+          
+      </li>
+    </ul>
+   
+    <!-- swiper-slides -->
+   
+    
+    <div class="social-list">
+
+      <a href="https://github.com/LeoNobrega23" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+    <a href="https://instagram.com/leo_nobregaaa" target="_blank">
+      <ion-icon name="logo-instagram"></ion-icon> </a>
+   <a href="https://www.linkedin.com/in/leonardo-nobrega-09b854155/" target="_blank"> <ion-icon name="logo-linkedin"></ion-icon></a>
+   <a href="https://youtube.com" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+    
+    </div>
+    
+    
+  </div>
+  <footer>Feito por Leonardo Nóbrega</footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>  
+  <script src="./script.js"></script>
+  
+</body>
+</html>
