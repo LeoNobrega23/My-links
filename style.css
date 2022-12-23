@@ -37,10 +37,11 @@ body {
 .container {
   border: 3px solid var(--stroke-color);
   border-radius: 15px;
-  width: 360px;
+  width: 100%;
   height: 720px;
   margin: 56px auto 0;
   padding: 15px;
+  max-width: 588px;
   
 
 }
