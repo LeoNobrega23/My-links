@@ -34,6 +34,18 @@ body {
   height: 100%;
   
 }
+
+
+  
+.btn {
+  padding: 7px 24px;
+  background: var(--surface-color);
+  border:  1px solid var(--stroke-color);
+  border-radius: 8px;
+  height: 38px;
+  width: 31%;
+}
+
 /* Geral */
 .container {
   border: 3px solid var(--stroke-color);
@@ -42,7 +54,7 @@ body {
   height: 1100px;
   margin: 56px auto 0;
   padding: 15px;
-  max-width: 588px;
+  max-width: 533px;
   
 
 }
@@ -266,7 +278,13 @@ footer {
 @media (max-width: 520px) {
     .container{
       width: 95%;
-      height: 1162px;
+      height: 1200px;
     }
    
+}
+
+@media (min-width: 700px){
+  .container{
+    height: 1200px;
+  }
 }
