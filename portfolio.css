@@ -267,27 +267,47 @@ footer {
  }
 
 @media (max-width: 500px) {
-  body {
-    height: 120vh;
-  }
+ 
   .container {
    width: 95%;
-    height: 1211px;
+  height: 1222px;
   }
-  .about {
-    line-height: 20px;
-  }
+  
 }
 
 @media (max-width: 520px) {
-    .container{
+   body {
+    height: 148vh;
+  }  
+  .container{
       width: 95%;
-      height: 1200px;
+      height: 1188px;
     }
+    .about {
+    line-height: 20px;
+  }
+  .swiper a img {
+    margin-top: 15px;
+    width: 313px;
+    height: 199px;
+    margin-right: 20px;
+    border-radius: 25px;
+  }
+  .swiper-button-prev {
+    display: none;
+  }
+   .swiper-button-next {
+    display: none;
+  }
    
 }
 
 @media (min-width: 700px){
+  .container{
+    height: 1200px;
+  }
+}
+@media (max-width: 699px) {
   .container{
     height: 1200px;
   }
