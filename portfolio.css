@@ -44,6 +44,10 @@ body {
   border-radius: 8px;
   height: 38px;
   width: 31%;
+  
+}
+.btn a {
+  text-decoration: none;
 }
 
 /* Geral */
