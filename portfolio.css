@@ -31,7 +31,7 @@
 body {
   background: var(--bg-url) no-repeat top center/cover;
   font-family: 'Inter', sans-serif;
-  height: 100vh;
+  height: 100%;
   
 }
 /* Geral */
@@ -39,7 +39,7 @@ body {
   border: 3px solid var(--stroke-color);
   border-radius: 15px;
   width: 100%;
-  height: 1133px;
+  height: 1100px;
   margin: 56px auto 0;
   padding: 15px;
   max-width: 588px;
@@ -130,11 +130,12 @@ ul li a{
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   height: 64px;
-  width: 553px;
+  width: 100%;
+  max-width: 533px;
   text-decoration: none;
   font-weight: 500;
   transition: background 0.3s;
-  font-size: 25px;
+  font-size: 16px;
 }
 #swiper .swiper-wrapper .swiper-slide a {
   border: none;
@@ -172,7 +173,7 @@ ul li a:hover {
 }
 
 footer {
-  padding: 24px 0;
+  margin: 84px 0;
   text-align: center;
 }
  /* Medias queries */
@@ -214,6 +215,15 @@ footer {
  }
  .about{
   display: none;
+  margin-top: 15px;
+  text-align: left;
+  font-style: italic;
+  line-height: 28px;
+}
+
+.about small {
+
+  font-size: 16px;
 }
  .swiper-slide {
     height: 322px;
@@ -232,10 +242,31 @@ footer {
     margin-top: 15px;
     width: 472px;
     height: 257px;
-    padding-left: 0px;
+    padding-left: 14px;
     border-radius: 25px;
 }
 
  .swiper-wrapper a img:hover{
   cursor: pointer;
  }
+
+@media (max-width: 500px) {
+  body {
+    height: 120vh;
+  }
+  .container {
+   width: 95%;
+    height: 1211px;
+  }
+  .about {
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+    .container{
+      width: 95%;
+      height: 1162px;
+    }
+   
+}

@@ -35,7 +35,7 @@ const swiper = new Swiper(".swiper", {
   spaceBetween: 25,
   freeMode: true,
   loop: true,
-
+ 
   // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
